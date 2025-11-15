@@ -22,6 +22,8 @@
     "build": "webpack",
     "dev": "webpack serve",
     "deploy": "git subtree push --prefix dist origin gh-pages",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   }
 }
